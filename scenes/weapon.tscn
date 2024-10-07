@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://cu04mbt3ttyqh"]
+
+[ext_resource type="Texture2D" uid="uid://griut100c1qn" path="res://assets/sprites/tank_weapon.png" id="1_cxjhe"]
+
+[node name="Weapon" type="Node2D"]
+
+[node name="WeaponSprite" type="Sprite2D" parent="."]
+position = Vector2(132, -17)
+scale = Vector2(1.9375, 1.91667)
+texture = ExtResource("1_cxjhe")
